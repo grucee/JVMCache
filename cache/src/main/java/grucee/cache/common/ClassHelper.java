@@ -1,4 +1,4 @@
-package grucee.common;
+package grucee.cache.common;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
