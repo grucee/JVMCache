@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="gb2312"?>
+<caches>
+
+    <!--cache组,刷新的时候按照一组刷新-->
+    <cacheGroup id="serviceInfo">
+    	<!-- 服务信息 -->
+		<cache id="com.ai.appframe2.rpc.server.cache.impl.CsfSrvServiceInfoCacheImpl">
+		</cache>
+    </cacheGroup>
+    
+    <!-- changer自己决定更新哪个cacheGroup -->
+	<cacheListener id="com.ai.appframe2.rpc.server.cache.changer.ServiceInfoCacheListener"></cacheListener>
+</caches>
